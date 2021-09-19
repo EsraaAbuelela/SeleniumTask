@@ -1,0 +1,71 @@
+20:10:52.455 [main] INFO  base.TestBase - Opening Browser [chrome] with url [http://automationpractice.com/index.php]
+20:10:58.442 [main] INFO  base.PageBase - Click on SignInButton
+20:10:58.504 [main] INFO  testCases.CreateAccountTest - Authentication Page is opened successfully
+20:10:58.740 [main] INFO  base.PageBase - typeemail :esraa.AbuElela+484@gmail.com
+20:10:58.854 [main] INFO  base.PageBase - Click on Register
+20:10:59.997 [main] INFO  base.PageBase - Account Header displayed is displayed successfully
+20:10:59.998 [main] INFO  testCases.CreateAccountTest - Navigation to fill account details done successfully
+20:11:00.626 [main] INFO  base.PageBase - Click on Mrs. Title
+20:11:00.772 [main] INFO  base.PageBase - typeFirst Name :Esraa
+20:11:00.932 [main] INFO  base.PageBase - typeLast Name :AbuElela
+20:11:01.089 [main] INFO  base.PageBase - typePassword :12345
+20:11:01.302 [main] INFO  base.PageBase - typeAddress FirstName :Smart
+20:11:01.453 [main] INFO  base.PageBase - typeAddress LastName :Village
+20:11:01.592 [main] INFO  base.PageBase - typeaddress :address1
+20:11:01.728 [main] INFO  base.PageBase - typecity :cairo
+20:11:01.967 [main] INFO  base.PageBase - typePostalCode :12345
+20:11:02.116 [main] INFO  base.PageBase - typephoneNo :012222222
+20:11:02.257 [main] INFO  base.PageBase - typeAddressAlias :SM
+20:11:04.755 [main] INFO  base.PageBase - Click on SubmitButton
+20:11:04.822 [main] INFO  base.PageBase - Welcome message is displayed successfully
+20:11:08.020 [main] INFO  base.TestBase - Browser is closed
+20:11:16.114 [main] INFO  base.TestBase - Opening Browser [chrome] with url [http://automationpractice.com/index.php]
+20:11:23.636 [main] INFO  base.PageBase - Click on SignInButton
+20:11:23.858 [main] INFO  base.PageBase - typeemail :esraa.AbuElela+8@gmail.com
+20:11:24.027 [main] INFO  base.PageBase - typePassword :12345
+20:11:33.414 [main] INFO  base.PageBase - Click on Login
+20:11:33.476 [main] INFO  base.PageBase - Welcome to account is displayed is displayed successfully
+20:11:33.476 [main] INFO  testCases.CreateAccountTest - User logged in ..
+20:11:33.662 [main] INFO  base.PageBase - hover on hover and click on women
+20:11:33.809 [main] INFO  base.PageBase - hover on hover  blouses done
+20:11:33.923 [main] INFO  base.PageBase - hover on  clicked on blouses
+20:11:39.665 [main] INFO  base.PageBase - hover on  clicked on blouses
+20:11:39.758 [main] INFO  base.PageBase - Blouses Cat selected is displayed successfully
+20:11:39.758 [main] INFO  testCases.CreateAccountTest - Selected Bloueses Category done
+20:11:39.914 [main] INFO  base.PageBase - hover on hover  blouse Item done
+20:11:47.328 [main] INFO  base.PageBase - Click on clicked on blouse to more details
+20:11:47.388 [main] INFO  base.PageBase - Product details opened is displayed successfully
+20:11:47.388 [main] INFO  testCases.CreateAccountTest - select resulted product done
+20:11:47.474 [main] INFO  base.PageBase - Click on  click on AddtoCart button
+20:11:51.267 [main] INFO  base.PageBase - success message is displayed successfully
+20:11:51.291 [main] INFO  base.PageBase - success message Actual text is Product successfully added to your shopping cart
+20:11:51.292 [main] INFO  testCases.CreateAccountTest - Item added and got text of success message
+20:11:51.357 [main] INFO  base.PageBase - blouseIsDisplayed is displayed successfully
+20:11:51.357 [main] INFO  testCases.CreateAccountTest - blouse is displayed in confirmation page
+20:11:57.268 [main] INFO  base.PageBase - Click on click on checkout button
+20:11:57.337 [main] INFO  base.PageBase - CART Summary Opened is displayed successfully
+20:11:57.337 [main] INFO  testCases.CreateAccountTest - proceed to checkout done
+20:12:03.553 [main] INFO  base.PageBase - Click on Summary proceed to checkout
+20:12:05.023 [main] INFO  base.PageBase - Click on proceed to checkout
+20:12:05.112 [main] INFO  base.PageBase - Click on Terms and condition checked
+20:12:06.509 [main] INFO  base.PageBase - Click on proceed from terms and conditions page
+20:12:08.147 [main] INFO  base.PageBase - Click on Select Bank wire payment method
+20:12:11.332 [main] INFO  base.PageBase - Click on confirm order button
+20:12:11.429 [main] INFO  base.PageBase - Order Details is displayed successfully
+20:12:11.454 [main] INFO  base.PageBase - Order Details Actual text is Your order on My Store is complete.
+Please send us a bank wire with
+- Amount $29.00
+- Name of account owner Pradeep Macharla
+- Include these details xyz
+- Bank name RTP
+- Do not forget to insert your order reference VXWLFYONJ in the subject of your bank wire.
+An email has been sent with this information.
+Your order will be sent as soon as we receive payment.
+If you have questions, comments or concerns, please contact our expert customer support team. .
+20:12:11.455 [main] INFO  testCases.CreateAccountTest - order refrence number is VXWLFYONJ
+20:12:12.932 [main] INFO  base.PageBase - Click on back to orders
+20:12:13.015 [main] INFO  base.PageBase - order history is displayed successfully
+20:12:13.033 [main] INFO  base.PageBase - order history Actual text is Order history
+20:12:13.033 [main] INFO  testCases.CreateAccountTest - Navigated to order history page
+20:12:13.060 [main] INFO  testCases.CreateAccountTest - Refrence order is displayed in history order page
+20:12:16.244 [main] INFO  base.TestBase - Browser is closed
